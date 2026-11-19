@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EcoviraApplication<ecovira>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ecovira.ecovira.EcoviraApplication",
+            "projectName": "ecovira",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
