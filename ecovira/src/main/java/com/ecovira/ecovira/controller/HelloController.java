@@ -1,4 +1,4 @@
-package com.ecovira.ecovira;
+package com.ecovira.ecovira.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
