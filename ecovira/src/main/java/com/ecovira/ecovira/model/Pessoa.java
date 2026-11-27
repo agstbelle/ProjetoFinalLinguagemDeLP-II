@@ -11,7 +11,7 @@ import lombok.Setter;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity
 @Table(name = "usuarios")
-public class Usuario {
+public class Pessoa {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -30,6 +30,9 @@ public class Usuario {
 
     @Column(nullable = false, length = 60)
     private String senha;
+
+    @Column(nullable = false)
+    private Perfil perfil;
 
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "eco_bag_id")
