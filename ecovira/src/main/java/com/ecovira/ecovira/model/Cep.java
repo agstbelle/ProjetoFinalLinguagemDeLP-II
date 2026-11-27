@@ -1,4 +1,4 @@
 package com.ecovira.ecovira.model;
 
-public class Celular {
+public class Cep {
 }

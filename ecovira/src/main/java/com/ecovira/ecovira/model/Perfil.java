@@ -1,4 +1,4 @@
 package com.ecovira.ecovira.model;
 
-public class Senha {
+public enum Perfil {
 }
