@@ -1,4 +1,4 @@
-package com.ecovira.ecovira.dto;
+package com.ecovira.ecovira.dto.requisicoes;
 
 public record ValidarEmailRequisicaoDto() {
 }
